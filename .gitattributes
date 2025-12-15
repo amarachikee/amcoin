@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize line endings
+* text=auto eol=lf
+
+# Keep GitHub language stats focused on Clarity (mark test/tooling as vendored)
+tests/** linguist-vendored
+vitest.config.js linguist-vendored
